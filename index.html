@@ -1,0 +1,139 @@
+<!-- DEVELOPER: Frank Santos, IS117-XXX, Fall 2025 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Frank Santos - Home </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+
+        <a class="navbar-brand" href="index.html">Home</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="nav">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="skills.html">Skills & Certs</a></li>
+
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Projects</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="projects.html">Project List</a></li>
+                        <li><a class="dropdown-item" href="experience.html">Experience</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search">
+            </form>
+        </div>
+
+    </div>
+</nav>
+
+
+<!-- HERO SECTION -->
+<div id="hero" class="p-5 text-white text-center">
+    <h1>Frank Santos</h1>
+    <h4>IT Senior Student </h4>
+    <p class="mt-3">
+        Welcome to my site!
+        I’m an IT senior student focusing on Network & Systems Administration.
+        This website showcases my journey, skills, achievements, and the projects I’ve worked on
+        throughout my academic and professional career.
+    </p>
+</div>
+
+
+<!-- CAROUSEL SECTION -->
+<div id="carouselExample" class="carousel slide mt-0">
+    <div class="carousel-inner">
+
+        <div class="carousel-item active">
+            <img src="images/server_rack.jpg" class="d-block w-100" style="object-fit: cover; height: 600px;" alt="Technology Banner">
+        </div>
+
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+</div>
+
+
+<!-- CARD SECTION -->
+<div class="container mt-3">
+    <div class="row g-4">
+
+        <!-- CARD 1: Technical Skills -->
+        <div class="col-md-4">
+            <div class="card h-100">
+                <img src="images/technicalSkills.jpg" class="card-img-top" alt="Skills Image">
+                <div class="card-body">
+                    <h5 class="card-title">Technical Skills</h5>
+                    <p class="card-text">
+                        Core knowledge in networking, system administration, virtualization, and cloud technologies.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- CARD 2: Projects -->
+        <div class="col-md-4">
+            <div class="card h-100">
+                <img src="images/project.jpg" class="card-img-top" alt="Projects Image">
+                <div class="card-body">
+                    <h5 class="card-title">Projects</h5>
+                    <p class="card-text">
+                        Hands-on IT and networking projects built during academic work and personal learning.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- CARD 3: Experience -->
+        <div class="col-md-4">
+            <div class="card h-100">
+                <img src="images/experince.jpg" class="card-img-top" alt="Experience Image">
+                <div class="card-body">
+                    <h5 class="card-title">Experience</h5>
+                    <p class="card-text">
+                        Real-world experience working with hardware, software, systems, and network environments.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<!-- FOOTER -->
+<footer class="footer-dark text-center p-3 mt-4">
+    &copy; Frank Santos 2025 |
+    Terms of Service |
+    Privacy Statement
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
